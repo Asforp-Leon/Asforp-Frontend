@@ -41,21 +41,21 @@ export default function Hero() {
 
           {/* Features */}
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-black/20 backdrop-blur-sm p-6 rounded-lg border border-white/10">
+            <button onClick={() => scrollToSection('servicios')} className="text-left w-full bg-black/20 backdrop-blur-sm p-6 rounded-lg border border-white/10 hover:border-yellow-400/50 transition-all hover:transform hover:scale-[1.02]">
               <Shield className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-white mb-2">Seguridad Integral</h3>
               <p className="text-gray-400">Protección completa para su familia y empresa</p>
-            </div>
-            <div className="bg-black/20 backdrop-blur-sm p-6 rounded-lg border border-white/10">
+            </button>
+            <button onClick={() => scrollToSection('servicios')} className="text-left w-full bg-black/20 backdrop-blur-sm p-6 rounded-lg border border-white/10 hover:border-yellow-400/50 transition-all hover:transform hover:scale-[1.02]">
               <Users className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-white mb-2">Personal Especializado</h3>
               <p className="text-gray-400">Profesionales con formación específica ampliada</p>
-            </div>
-            <div className="bg-black/20 backdrop-blur-sm p-6 rounded-lg border border-white/10">
+            </button>
+            <button onClick={() => scrollToSection('servicios')} className="text-left w-full bg-black/20 backdrop-blur-sm p-6 rounded-lg border border-white/10 hover:border-yellow-400/50 transition-all hover:transform hover:scale-[1.02]">
               <Award className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-white mb-2">Calidad Garantizada</h3>
               <p className="text-gray-400">Compromiso con la excelencia y profesionalidad</p>
-            </div>
+            </button>
           </div>
         </div>
       </div>
